@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint-custom": "eslint src --max-warnings 0",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "lint-staged": {
     "src/**/*": [
