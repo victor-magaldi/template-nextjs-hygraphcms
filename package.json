@@ -13,7 +13,7 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint-custom --fix"
+      "yarn lint-custom --fix", "yarn test --bail"
     ]
   },
   "dependencies": {
